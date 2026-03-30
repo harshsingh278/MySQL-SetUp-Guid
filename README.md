@@ -32,3 +32,54 @@ mysql -u root -p
 Enter password → MySQL should start
 
 ## Done 🎉
+
+# MySQL Installation Guide for (Mac OS)
+
+## 🍎 macOS Installation
+
+### Step 1: Download MySQL
+
+Go to:
+https://dev.mysql.com/downloads/mysql/
+
+* Select: macOS
+* Download `.dmg` file
+
+---
+
+### Step 2: Install MySQL
+
+* Open the downloaded `.dmg` file
+* Run the MySQL installer package
+* Follow the instructions
+
+---
+
+### Step 3: Set Root Password
+
+* During installation, set your root password
+* Save it safely ⚠️
+
+---
+
+### Step 4: Start MySQL Server
+
+Go to:
+System Settings → MySQL → Start MySQL Server
+
+---
+
+### Step 5: Verify Installation
+
+Open Terminal and run:
+
+```bash id="k92hd7"
+mysql -u root -p
+```
+
+Enter your password → MySQL should start
+
+---
+
+## ✅ Done 🎉
+
